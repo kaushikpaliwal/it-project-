@@ -1,9 +1,13 @@
 {
+
+  "homepage":"https://kaushikpaliwal.github.io/it-project-",
   "name": "it-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,6 +16,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-countup": "^6.5.3",
