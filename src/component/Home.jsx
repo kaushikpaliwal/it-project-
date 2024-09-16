@@ -10,6 +10,7 @@ import 'aos/dist/aos.css'
 import { NavLink } from 'react-router-dom';
 import RecentWorkSlider from './RecentWorkSlider';
 import Pricing from './pricing';
+
 function Home() {
  
   // const [counterOn, setCounterOn]=useState(false);
