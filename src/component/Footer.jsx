@@ -39,7 +39,7 @@ function Footer() {
         </ul>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-6 content-con mt-3">
-        <h3>Leagal</h3>
+        <h3>Legal</h3>
         <ul>
           <li><NavLink className='link' to={''}>Terms of use</NavLink></li>
           <li><NavLink className='link' to={''}>Terms & conditions</NavLink></li>
