@@ -14,7 +14,7 @@ function QueryForm() {
 
         <h2 >Having any Query? Book an appointment.</h2>
         </div>
-        <div className='col-lg-6 text-lg-end'>
+        <div className='col-lg-6 text-lg-end text-center'>
 
         <button className='btn ' >Send a Mssage</button>
         </div>

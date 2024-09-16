@@ -10,6 +10,8 @@ import 'aos/dist/aos.css'
 import { NavLink } from 'react-router-dom';
 import RecentWorkSlider from './RecentWorkSlider';
 import Pricing from './pricing';
+import Faq from './Faq';
+import QueryForm from './QueryForm';
 
 function Home() {
  
@@ -333,7 +335,7 @@ function Home() {
 
 
 <Pricing/>
-
+<QueryForm/>
   <Footer/>
     </>
   );

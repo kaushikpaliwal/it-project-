@@ -37,7 +37,7 @@ function Pricing() {
             <div className="tab-content">
               <div className="tab-pane active show" id="month">
                 <div className="row gx-xxl-5 mt-4 ">
-                  <div className="col-md-6  text-center">
+                  <div className="col-md-6 fir-con text-center">
                     <div className="pr-table-wrapper active md-mb-30 border">
                       <div className="pack-name">Business</div>
                       <div className="pack-details">

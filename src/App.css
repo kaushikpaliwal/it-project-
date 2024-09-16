@@ -1040,6 +1040,7 @@ background-color: #F6F0FF;
 }
 .contact-us img{
   min-height: 70vh;
+  width: auto;
 }
 
 .contact-us-container .contact-us-content{
@@ -1047,11 +1048,12 @@ background-color: #F6F0FF;
 }
 .contact-us-container h6{
 color: blueviolet;
-width: 150px;
+/* width: 150px; */
+display: inline-block;
 text-align: center;
 font-size: 17px;
 font-weight: 600;
-padding: 3px 0px;
+padding: 3px 50px;
 border-radius: 20px;
 background-color: #F6F0FF;
 }
@@ -1668,7 +1670,19 @@ transform: translate(-50%, 20%);
   /* portfolio------------------------------------- */
 
  
-  
+  .nav-tabs {
+    --bs-nav-tabs-border-width:none;
+    /* border: 1px solid black; */
+  }
+  .nav-fill .nav-item{
+    /* width: 100%; */
+    border: 1px solid black;
+    margin: 5px 10px;
+    border-radius: 5px;
+    /* background-color: #0066FF; */
+ 
+   
+}
 
   .home-tab .card{
     border: none;
@@ -2241,7 +2255,7 @@ color: black;
 
 /* quary-form---------------------------------------------------------------------------------- */
 .query-s-con{
-  background-color: #8A2BE2;
+  background-color: #0066FF;
   padding: 50px 50px ;
   border-radius: 25px;
   
@@ -2253,11 +2267,11 @@ color: black;
 }
 .query-container button{
   color: white;
-  background-color:#A367F2;
+  background-color:#5f83ef;
   padding: 10px 25px;
   font-size: 20px;
   font-weight: 600;
-  display: block;
+  display: inline-block;
   margin: auto;
 }
 .query-container  button:hover{
@@ -2410,7 +2424,19 @@ color: black;
   color: rgb(110, 109, 109);
   font-weight: 700;
 }
-
+@media (width<768px) {
+  .pricing-table-area-one .fir-con{
+    margin-bottom:20px ;
+  }
+  .pr-table-wrapper .trial-button{
+    background-color:var(--prime-two);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 20px 205x;
+    border-radius: 30px; 
+  }
+}
 /* Pricing-page style=================================================== */
 
 .pricing-con {

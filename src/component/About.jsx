@@ -52,10 +52,10 @@ function About() {
       </div>
         <div className="second-content row  ">
 
-        <div className="col-lg-4 s-content" ><h3>Our History</h3><p>Except to obtain some advantage from it? But who has any right to find fault with a consequences.</p> </div>
-        <div className="col-lg-4 s-content"><h3>Our Mission</h3>
+        <div className="col-lg-4 s-content px-lg-3" ><h3>Our History</h3><p>Except to obtain some advantage from it? But who has any right to find fault with a consequences.</p> </div>
+        <div className="col-lg-4 s-content px-lg-3"><h3>Our Mission</h3>
         <p>Except to obtain some advantage from it? But who has any right to find fault with a consequences.</p></div>
-        <div className="col-lg-4 s-content"><h3>Our Vission</h3>
+        <div className="col-lg-4 s-content px-lg-3"><h3>Our Vission</h3>
         <p>Except to obtain some advantage from it? But who has any right to find fault with a consequences.</p></div>
         </div>
 
@@ -132,7 +132,7 @@ function About() {
 
 
 <h6 >TESTIMONIALS</h6>
-<h2>Trsuted by <span>Clients</span></h2>
+<h2>Trusted by <span>Clients</span></h2>
 
 
 </div>

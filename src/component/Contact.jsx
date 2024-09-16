@@ -36,7 +36,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-               /images/icon/icon_17.svg" alt="" />
+               images/icon/icon-01.svg" alt="icon" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>
@@ -52,7 +52,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-              /images/icon/icon_17.svg" alt="" />
+             images/icon/icon-01.svg" alt="" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>
@@ -68,7 +68,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-              /images/icon/icon_17.svg" alt="" />
+             images/icon/icon-01.svg" alt="" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>
