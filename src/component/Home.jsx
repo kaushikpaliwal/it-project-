@@ -108,7 +108,7 @@ function Home() {
 
 </div>
 
-<NavLink to={'/'} className='up-icon'>
+<NavLink to={'#'} className='up-icon'>
 
 <FaArrowUp  className='icon'/>
 </NavLink>
@@ -128,7 +128,7 @@ function Home() {
                 Sinco delivered blazing fast, striking ai solution
               </p>
               <ul className="style-none button-group d-lg-flex align-items-center">
-								<li className="me-4"><NavLink href="contact-us.html" className="btn-one ripple-btn"><button type="button" className="btn btn-primary">Start Free Trial</button></NavLink></li>
+								<li className="me-4"><NavLink href="" className="btn-one ripple-btn"><button type="button" className="btn btn-primary">Start Free Trial</button></NavLink></li>
 								<li className="help-btn">Need any help? <NavLink href="contact-us.html " className='clr'>Contact us</NavLink></li>
 							</ul>
     </div>

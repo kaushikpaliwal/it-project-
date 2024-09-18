@@ -11,7 +11,7 @@ function PortfolioDetails() {
   return ( 
     <>
     <Navbar/>
-    <NavLink to={'/'} className='up-icon'>
+    <NavLink to={'#'} className='up-icon'>
 
 <FaArrowUp  className='icon'/>
 </NavLink>
