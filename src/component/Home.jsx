@@ -377,7 +377,7 @@ function Home() {
     </div>
   </div>
   <div className=" d-flex adr-con">
-  <img src="images/icon/icon_07.svg" alt="" />
+  <img src="images/icon/icon_07.svg" alt=" img" />
     <div className="con">
 
     <div className="con-title">Contact Info</div>
