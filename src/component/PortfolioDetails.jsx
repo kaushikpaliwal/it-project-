@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaTwitter,FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter,FaLinkedinIn, FaArrowUp } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
@@ -11,6 +11,10 @@ function PortfolioDetails() {
   return ( 
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
        <div id="about-main">
 
 <div className="about-page container  d-flex justify-content-center align-items-center">

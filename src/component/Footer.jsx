@@ -17,7 +17,7 @@ function Footer() {
 
 
      <div className="footer-container">
-<div className="container">
+<div className="container f-con">
     <div className="row">
       <div className="col-lg-3 col-md-6 col-sm-6 main content-con mb-3">
         <h3>Heading</h3>
@@ -56,6 +56,18 @@ function Footer() {
      </div>
      <img src="images/element1.png" alt="" className='element-one' />
 <img src="images/element2.png" alt="" className='element-two'/>
+<div className="container pt-2 copy-right-con">
+<div class="d-lg-flex justify-content-between align-items-center">
+                <ul class="order-lg-1 d-flex justify-content-center footer-nav style-none">
+                  <li><NavLink className='links' to={'/faq'}>Privacy &amp; Terms.</NavLink></li>
+                  <li><NavLink className='links' to={'/faq'}>FAQ</NavLink></li>
+                  <li><NavLink className='links' to={'/contact'}>Contact Us</NavLink></li>
+                </ul>
+                <p class="copyright text-center order-lg-0  ">
+                  Copyright @2024 project inc.
+                </p>
+              </div>
+    </div>
     </div>
     </>
    );

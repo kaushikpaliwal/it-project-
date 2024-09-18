@@ -3,7 +3,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-import { FaPlus } from "react-icons/fa";
+import { FaArrowUp, FaPlus } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -16,6 +16,10 @@ function Portfolio() {
   return ( 
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
 
 <div className="about-page container  d-flex justify-content-center align-items-center">

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 function Error() {
   return (  
     <>
+    
     <div className="container">
 
     <div className=" text-center error-page">

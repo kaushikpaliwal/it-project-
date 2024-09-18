@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <>
-     <div className="navbar-con pb-1">
+     <div className="navbar-con pb-1  sticky-top ">
 
-<nav className="navbar navbar-expand-lg  ">
+<nav className="navbar navbar-expand-lg ">
 <div className="container-fluid ">
 <NavLink className="color navbar-brand pt-0" to="#" >Navbar</NavLink>
 
@@ -77,11 +77,11 @@ function Navbar() {
       <NavLink className="color nav-link active" aria-current="page" to={'/contact'}>Contact</NavLink>
     </li>
   </ul>
- <div className="con-ss">
-  <button className='btns-nav'><NavLink to={'/signin'} 
-  className='link'>Sign In</NavLink></button>
-  <button className='btns-nav'><NavLink to={'/signup'}
-  className='link'> Sign Up</NavLink></button>
+ <div className="con-ss"><NavLink to={'/signin'} 
+  className='link'>
+  <button className='btns-nav'>Sign In</button></NavLink>
+  <NavLink to={'/signup'}
+  className='link'><button className='btns-nav'> Sign Up</button></NavLink>
  </div>
 </div>
 </div>

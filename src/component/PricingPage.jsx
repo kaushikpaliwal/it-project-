@@ -3,11 +3,16 @@ import Navbar from './Navbar'
 import Footer from './Footer';
 import Pricing from './pricing';
 import { NavLink } from 'react-router-dom';
+import { FaArrowUp } from 'react-icons/fa';
 function PricingPage() {
   return ( 
 
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
         
 

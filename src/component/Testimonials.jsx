@@ -5,10 +5,15 @@ import SlickSliderRow from './SlickSliderRow';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from 'react-icons/fa';
 function Testimonials() {
   return (
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
 
 <div className="about-page container  d-flex justify-content-center align-items-center text-center">

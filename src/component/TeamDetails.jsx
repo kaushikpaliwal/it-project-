@@ -3,10 +3,15 @@ import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from 'react-icons/fa';
 function TeamDetails() {
   return ( 
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
 <div className="container">
 

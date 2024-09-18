@@ -3,10 +3,15 @@ import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from 'react-icons/fa';
 function Contact() {
   return ( 
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
         
 
@@ -36,7 +41,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-               images/icon/icon-01.svg" alt="icon" />
+               images/icon/icon_02.svg" alt="icon" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>
@@ -52,7 +57,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-             images/icon/icon-01.svg" alt="" />
+             images/icon/icon_03.svg" alt="" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>
@@ -68,7 +73,7 @@ function Contact() {
       <div className=" d-flex align-items-center flex-column " >
 
       <img src="
-             images/icon/icon-01.svg" alt="" />
+             images/icon/icon_04.svg" alt="" />
         <div className="card-title"> <h3 className="card-title mt-3">
                 Our Address
               </h3></div>

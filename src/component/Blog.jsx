@@ -4,18 +4,23 @@ import { FaStar } from "react-icons/fa6";
 import Footer from './Footer';import { IoIosSearch } from "react-icons/io";
 import Navbar from './Navbar';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from "react-icons/fa";
 
 function Blog() {
   return (  
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
         
 
         <div className="about-page container  d-flex justify-content-center align-items-center">
           <div className="row ">
             <div className="col-lg-12 text-center ">
-          <h2 >Blog Standard</h2>
+          <h2 className='text-break  '>Blog Standard</h2>
           <div className="content">
           <NavLink to={'/'} className="navigation-main">Home</NavLink>
           <span className='about'>Blog</span>

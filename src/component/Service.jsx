@@ -12,6 +12,7 @@ import 'aos/dist/aos.css'
 import SlickSliderRow from './SlickSliderRow';
 import Navbar from './Navbar';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from 'react-icons/fa';
 function Service() {
     useEffect(()=>{
       Aos.init();
@@ -19,6 +20,10 @@ function Service() {
   return (  
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div id="about-main">
 
 <div className="about-page container  d-flex justify-content-center align-items-center">

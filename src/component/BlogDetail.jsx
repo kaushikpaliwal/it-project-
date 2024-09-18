@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';  
 import { IoIosSearch } from "react-icons/io";
-import { FaGoogle } from "react-icons/fa";
+import { FaArrowUp, FaGoogle } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
@@ -13,6 +13,10 @@ function BlogDetail() {
      <>
 
 <Navbar/>
+<NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
    <div id="about-main">
         
 

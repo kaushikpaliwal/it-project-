@@ -12,6 +12,8 @@ import RecentWorkSlider from './RecentWorkSlider';
 import Pricing from './pricing';
 import Faq from './Faq';
 import QueryForm from './QueryForm';
+import { FaArrowUp } from "react-icons/fa";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 function Home() {
  
@@ -92,16 +94,24 @@ function Home() {
       <NavLink className="color nav-link active" aria-current="page" to={'/contact'}>Contact</NavLink>
     </li>
   </ul>
- <div className="con-ss">
-  <button className='btns-nav'><NavLink to={'/signin'} 
-  className='link'>Sign In</NavLink></button>
-  <button className='btns-nav'><NavLink to={'/signup'}
-  className='link'> Sign Up</NavLink></button>
+  <div className="con-ss"><NavLink to={'/signin'} 
+  className='link'>
+  <button className='btns-nav'>Sign In</button></NavLink>
+  <NavLink to={'/signup'}
+  className='link'><button className='btns-nav'> Sign Up</button></NavLink>
  </div>
 </div>
 </div>
 </nav>
+
+
+
 </div>
+
+<NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
     <div className="hero-banner ">
 
  <div className="container ">
@@ -119,7 +129,7 @@ function Home() {
               </p>
               <ul className="style-none button-group d-lg-flex align-items-center">
 								<li className="me-4"><NavLink href="contact-us.html" className="btn-one ripple-btn"><button type="button" className="btn btn-primary">Start Free Trial</button></NavLink></li>
-								<li className="help-btn">Need any help? <NavLink href="contact-us.html">Contact us</NavLink></li>
+								<li className="help-btn">Need any help? <NavLink href="contact-us.html " className='clr'>Contact us</NavLink></li>
 							</ul>
     </div>
     
@@ -335,6 +345,49 @@ function Home() {
 
 
 <Pricing/>
+
+<div className="be-a-pro-with-us ">
+<div className="images">
+  <img src="images/assets/bg_05.svg" alt="" class="shapes shape-one"/>
+  <img src="images/shape/shape_01.svg" alt="" class="shapes shape-two"/>
+  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-three"/>
+  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-four"/>
+  <img src="images/shape/shape_03.svg" alt="" class="shapes shape-five"/>
+  </div>
+  <div className="container align-items-center d-flex flex-column">
+    <div className="title">Be a pro with us</div>
+    <div className="para text-center">
+    Get Ready to Started It’s Fast, <br /> Free & very easy
+    </div>
+    <button> Get Started <MdOutlineKeyboardArrowRight  className='ms-2 fs-3'/></button>
+  </div>
+
+
+</div>
+<div className="container">
+
+
+ <div className="address">
+  <div className=" d-flex adr-con adr-fir-con">
+    <img src="images/icon/icon_06.svg" alt="" />
+    <div className="con">
+
+    <div className="con-title">Our Address</div>
+    <div className="con-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+    </div>
+  </div>
+  <div className=" d-flex adr-con">
+  <img src="images/icon/icon_07.svg" alt="" />
+    <div className="con">
+
+    <div className="con-title">Contact Info</div>
+    <div className="con-para">Open a chat or give us call at
+    310.841.5500 </div>
+    </div>
+  </div>
+ </div>
+ </div>
+
 <QueryForm/>
   <Footer/>
     </>

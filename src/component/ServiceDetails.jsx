@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaStar } from "react-icons/fa6";
-import { FaRegFilePdf } from "react-icons/fa";
+import { FaArrowUp, FaRegFilePdf } from "react-icons/fa";
 import { GiNetworkBars } from "react-icons/gi";
 import { TiTick } from "react-icons/ti";
 import { HiEye } from "react-icons/hi";
@@ -15,6 +15,10 @@ function ServiceDetails() {
   return (  
     <>
     <Navbar/>
+    <NavLink to={'/'} className='up-icon'>
+
+<FaArrowUp  className='icon'/>
+</NavLink>
        <div id="about-main">
         
 
