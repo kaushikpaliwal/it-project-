@@ -63,7 +63,7 @@ function Footer() {
                   <li><NavLink className='links' to={'/faq'}>FAQ</NavLink></li>
                   <li><NavLink className='links' to={'/contact'}>Contact Us</NavLink></li>
                 </ul>
-                <p class="copyright text-center order-lg-0  ">
+                <p class="copyright text-center order-lg-0  mb-0 pb-3">
                   Copyright @2024 project inc.
                 </p>
               </div>

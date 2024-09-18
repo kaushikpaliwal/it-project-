@@ -160,11 +160,14 @@ justify-content: space-evenly;
   }
   .hero-banner .content .hero-heading{
     font-size: 3rem !important;
+    margin:  30px 0px  40px 0px !important;
   }
 
   .hero-banner .hero-para{
     font-size: 1rem !important;
+    margin-bottom: 30px !important;
   }
+ 
 }
 .hero-banner .content .hero-heading{
   font-size: 6rem;
@@ -193,6 +196,9 @@ padding: 7px 5px;
   color: var(--text-color);
   font-size: 20px;
   line-height: 1.7em;
+  }
+  .hero-banner ul{
+    padding-left: 0%;
   }
 .hero-banner ul li{
   list-style: none;
