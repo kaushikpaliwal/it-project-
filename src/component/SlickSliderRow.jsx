@@ -54,7 +54,7 @@ function SlickSliderRow() {
     <div className="img-slick-slider d-flex">
       <img src=" images/author-2.png" alt=""  />
       <div className="name-person mx-3">
-    <h5>Larry K. Lund</h5>
+    <h5>Larry K. jind</h5>
     <h6>Social Media Manger</h6>
       </div>
     </div>
@@ -71,25 +71,7 @@ function SlickSliderRow() {
     <div className="img-slick-slider d-flex">
       <img src="images/author-2.png" alt="" />
       <div className="name-person  mx-3">
-    <h5>Larry K. Lund</h5>
-    <h6>Social Media Manger</h6>
-      </div>
-    </div>
-        </div>
-        </div>
-        <div>
-        <div className='contetnt-slider'>
-          <div className="star">
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          </div>
-    <p>Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-    <div className="img-slick-slider d-flex">
-      <img src="images/author-2.png" alt="" />
-      <div className="name-person  mx-3">
-    <h5>Larry K. Lund</h5>
+    <h5>Larry K. jind</h5>
     <h6>Social Media Manger</h6>
       </div>
     </div>
@@ -107,7 +89,25 @@ function SlickSliderRow() {
     <div className="img-slick-slider d-flex">
       <img src="images/author-2.png" alt="" />
       <div className="name-person  mx-3">
-    <h5>Larry K. Lund</h5>
+    <h5>Larry K. jind</h5>
+    <h6>Social Media Manger</h6>
+      </div>
+    </div>
+        </div>
+        </div>
+        <div>
+        <div className='contetnt-slider'>
+          <div className="star">
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          </div>
+    <p>Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
+    <div className="img-slick-slider d-flex">
+      <img src="images/author-2.png" alt="" />
+      <div className="name-person  mx-3">
+    <h5>Larry K. jind</h5>
     <h6>Social Media Manger</h6>
       </div>
     </div>
