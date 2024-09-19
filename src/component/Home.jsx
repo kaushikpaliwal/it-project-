@@ -348,18 +348,18 @@ function Home() {
 
 <div className="be-a-pro-with-us ">
 <div className="images">
-  <img src="images/assets/bg_05.svg" alt="" class="shapes shape-one"/>
-  <img src="images/shape/shape_01.svg" alt="" class="shapes shape-two"/>
-  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-three"/>
-  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-four"/>
-  <img src="images/shape/shape_03.svg" alt="" class="shapes shape-five"/>
+  <img src="images/assets/bg_05.svg" alt="" class="shapes shape-one" />
+  <img src="images/shape/shape_01.svg" alt="" class="shapes shape-two " data-aos='fade-up'/>
+  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-three" data-aos='fade-up'/>
+  <img src="images/shape/shape_02.svg" alt="" class="shapes shape-four" data-aos='fade-up'/>
+  <img src="images/shape/shape_03.svg" alt="" class="shapes shape-five" data-aos='fade-up'/>
   </div>
   <div className="container align-items-center d-flex flex-column">
-    <div className="title">Be a pro with us</div>
-    <div className="para text-center">
+    <div className="title" data-aos='fade-up'>Be a pro with us</div>
+    <div className="para text-center" data-aos='fade-up'>
     Get Ready to Started It’s Fast, <br /> Free & very easy
     </div>
-    <button> Get Started <MdOutlineKeyboardArrowRight  className='ms-2 fs-3'/></button>
+    <button data-aos='fade-up'> Get Started <MdOutlineKeyboardArrowRight  className='ms-2 fs-3'/></button>
   </div>
 
 
@@ -367,12 +367,12 @@ function Home() {
 <div className="container">
 
 
- <div className="address">
+ <div className="address " data-aos='fade-up'>
   <div className=" d-flex adr-con adr-fir-con">
     <img src="images/icon/icon_06.svg" alt="" />
     <div className="con">
 
-    <div className="con-title">Our Address</div>
+    <div className="con-title" >Our Address</div>
     <div className="con-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
     </div>
   </div>

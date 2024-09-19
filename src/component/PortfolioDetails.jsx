@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaTwitter,FaLinkedinIn, FaArrowUp } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
@@ -7,7 +7,13 @@ import { FaPlus } from "react-icons/fa";
 import Navbar from './Navbar';
 import Footer from './Footer';
 import QueryForm from './QueryForm';
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function PortfolioDetails() {
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return ( 
     <>
     <Navbar/>
@@ -36,12 +42,12 @@ function PortfolioDetails() {
 
 <div className="container port-detail-con">
   <div className="row ">
-    <div className="col-lg-6 px-5 detail-con">
+    <div className="col-lg-6  detail-con">
       <p>REDESIGN, BRANDING</p>
       <h2>Website page re-design with Branding.</h2>
       <p className='para'>We’ve created a unique visual system and strategy across the wide existing spectrum of visible mobile applications & found yourself in a wide, straggling with.</p>
     </div>
-    <div className="col-lg-6 px-5">
+    <div className="col-lg-6  ">
     <div className="row my-4 ">
       <div className="col-lg-6 col-md-6 col-sm-6">
         <h6>DATE</h6>
@@ -87,21 +93,21 @@ function PortfolioDetails() {
 
 <div className="row sec-detail gx-5">
   <h2>Working Process</h2>
-  <div className="col-lg-4 box">
-    <div className="content">
+  <div className="col-lg-4 box" data-aos="fade-up" >
+    <div className="content" >
 <div className="latter">1</div>
     <h4>Research</h4>
     <p>Collect data and ger ready for research.</p>
     </div>
   </div>
-  <div className="col-lg-4 box">
+  <div className="col-lg-4 box "  data-aos="fade-up">
   <div className="content">
   <div className="latter">2</div>
   <h4>Identify Problem</h4>
   <p>Then we find the problem with our ai.</p>
   </div>
   </div>
-  <div className="col-lg-4 box">
+  <div className="col-lg-4 box"  data-aos="fade-up">
     <div className="content">
     <div className="latter">3</div>
   <h4>Resolve Problem</h4>

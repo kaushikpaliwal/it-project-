@@ -57,13 +57,13 @@ function Footer() {
      <img src="images/element1.png" alt="" className='element-one' />
 <img src="images/element2.png" alt="" className='element-two'/>
 <div className="container pt-2 copy-right-con">
-<div class="d-lg-flex justify-content-between align-items-center">
-                <ul class="order-lg-1 d-flex justify-content-center footer-nav style-none">
+<div className="d-lg-flex justify-content-between align-items-center">
+                <ul className="order-lg-1 d-flex justify-content-center footer-nav style-none">
                   <li><NavLink className='links' to={'/faq'}>Privacy &amp; Terms.</NavLink></li>
                   <li><NavLink className='links' to={'/faq'}>FAQ</NavLink></li>
                   <li><NavLink className='links' to={'/contact'}>Contact Us</NavLink></li>
                 </ul>
-                <p class="copyright text-center order-lg-0  mb-0 pb-3">
+                <p className="copyright text-center order-lg-0  mb-0 pb-3">
                   Copyright @2024 project inc.
                 </p>
               </div>

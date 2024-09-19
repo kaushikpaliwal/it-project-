@@ -48,7 +48,8 @@ function Portfolio() {
       >
       <Tab className=' ' eventKey="home" title="Home">
       <div className="row home-tab my-5 d-flex justify-content-around ">
-        <div className="col-lg-3 col-md-3 col-sm-3 card"><img src="images/gallery/img_01.jpg" alt=""className='img-fluid' />
+        <div className="col-lg-3 col-md-3 col-sm-3 card">
+          <img src="images/gallery/img_01.jpg" alt=""className='img-fluid' />
           <NavLink to={''} >
         <div className="icon-con">
 

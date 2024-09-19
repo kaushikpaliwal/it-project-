@@ -46,7 +46,7 @@ function BlogDetail() {
       
     <img src="images/blog/blog_img_20.jpg" className='img-fluid' alt="" />
     </NavLink>
-    <div className="details-card blog-detail-card px-5">
+    <div className="details-card blog-detail-card">
 
     
       <div className="fr-con">

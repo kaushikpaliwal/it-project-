@@ -82,9 +82,9 @@ function About() {
   <div className="col-lg-6 choose-us-content">
     <h6>WHY CHOOSE US</h6>
     <h2 >Why <span>choose us</span>  for your business.</h2>
-    <p >Learn content by interacting with an expert lesson or watching a video.</p>
-    <p>Learn content by interacting with an expert lesson or watching a video.</p>
-    <p>Learn content by interacting with an expert lesson or watching a video.</p>
+    <p data-aos='fade-up'>Learn content by interacting with an expert lesson or watching a video.</p>
+    <p data-aos='fade-up'>Learn content by interacting with an expert lesson or watching a video.</p>
+    <p data-aos='fade-up'>Learn content by interacting with an expert lesson or watching a video.</p>
   </div>
   </div>
 </div>

@@ -126,7 +126,7 @@ function Service() {
 
 
 <h6 >TESTIMONIALS</h6>
-<h2>Trsuted by <span>Clients</span></h2>
+<h2 className='text-center'>Trusted by <span>Clients</span></h2>
 
 
 </div>
