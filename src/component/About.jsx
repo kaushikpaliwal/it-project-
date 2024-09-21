@@ -154,7 +154,7 @@ function About() {
   
 <div className=" contact-us-container container">
   <div className="row">
-  <div className="col-lg-6 contact-us"><img src="images/choose-img-1.avif" alt="" className='img-fluid '/></div>
+  <div className="col-lg-6 contact-us d-flex align-items-center "><img src="images/choose-img-1.avif" alt="" className='img-fluid '/></div>
   <div className="col-lg-6 contact-us-content">
     <h6 >Contact us</h6>
     <h2>Get Ready to<span> Started.</span> It’s Fast & Easy.</h2>

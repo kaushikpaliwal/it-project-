@@ -33,8 +33,6 @@ function App() {
     <Route path={'/teamdetails'} element={<TeamDetails/>}/>
     
     <Route path={'/faq'} element={<Faq/>}/>
-    <Route path={'/signup'} element={<SignUp/>}/>
-    <Route path={'/signin'} element={<Signin/>}/> 
     <Route path={'/testimonials'} element={<Testimonials/>}/>
     <Route path={'/portfolio'} element={<Portfolio/>}/>
     <Route path={'/portfoliodetails'} element={<PortfolioDetails/>}/>
@@ -44,6 +42,8 @@ function App() {
     <Route path={'/contact'} element={<Contact/>}/>
     
     <Route path={'/pricing'} element={<PricingPage/>}/> 
+    <Route path={'/signup'} element={<SignUp/>}/>
+    <Route path={'/signin'} element={<Signin/>}/> 
      </Routes>
     </>
   )

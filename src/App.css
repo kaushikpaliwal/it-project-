@@ -3,6 +3,7 @@
   margin: 0%;
   box-sizing: border-box;
   /* overflow-x: hidden; */
+
 }
 
 ::-webkit-scrollbar{ display: none; }
@@ -19,17 +20,32 @@
 }
 
 /* navbar styling----------------------------------------------------------- */
-.navbar-con{
- 
-z-index: 100;
-background: linear-gradient(to right ,rgb(53, 53, 250) ,rgb(109, 109, 236));
+
+
+@media (width<360px) {
+  .navbar-con .navbar-brand img{
+    width: 300px !important;
+  }
+}
+
+.bg-color-hide .navbar-brand {
+ margin-right: 0px !important;
+ /* font-size: 30px !important; */
+ padding: 0px 0px 10px 0px !important;
+}
+
+@media (width<1054px) {
+  .navbar  img{
+   height: 31px !important;
+  }
+}
+@media (width<992px) {
+  .navbar  img{
+   height:auto !important;
+  }
 }
 
 
-.navbar-con .navbar-brand{
-  font-size: 2.25rem;
-  color: white;
-}
  .navbar-con .navbar-collapse ul li{
    font-weight: 500;
    font-size: 18px !important;
@@ -37,6 +53,7 @@ background: linear-gradient(to right ,rgb(53, 53, 250) ,rgb(109, 109, 236));
   }
   .navbar-con .navbar-collapse ul li .color{
   color: white !important;
+
 
 }
 .link .btns-nav{
@@ -91,7 +108,7 @@ background: linear-gradient(to right ,rgb(53, 53, 250) ,rgb(109, 109, 236));
     top: 0%;
    left: 0%;
    z-index: 100;
-   background-color: rgb(251 249 249) !important;
+   background-color: rgb(252, 252, 252) !important;
    
   }
   .bg-color-hide .navbar-brand{
@@ -152,6 +169,7 @@ justify-content: space-evenly;
   font-size: 16px;
   color: #325476;
   letter-spacing: 0.7px;
+  font-family: "chivo";
 }
 @media (width<450px) {
   .hero-banner .slogan {
@@ -175,12 +193,13 @@ justify-content: space-evenly;
   letter-spacing: -1px;
   font-weight: 500;
   color: var(--heading);
+  font-family: "chivo";
   }
 
 
 .hero-banner .content a{
   text-decoration: none;
-padding: 7px 5px;
+  padding: 7px 5px;
 }
 .hero-banner .content a .hero-content-icon{
  
@@ -196,6 +215,7 @@ padding: 7px 5px;
   color: var(--text-color);
   font-size: 20px;
   line-height: 1.7em;
+  font-family: "chivo";
   }
   .hero-banner ul{
     padding-left: 0%;
@@ -314,6 +334,7 @@ justify-content: space-around;
   font-size: 20px;
   color: var(--heading);
 
+  font-family: "chivo";
 }
 
 .illustration-holder .card-one .illustration-content .info{
@@ -434,8 +455,8 @@ animation: jumpOne 7s infinite linear;
 
 
    .services-container{
-    display: flex;
-    flex-direction: column; 
+    /* display: flex;
+    flex-direction: column;  */
   }
   .services-container .services-first-container{
     display: flex;
@@ -443,11 +464,12 @@ animation: jumpOne 7s infinite linear;
     align-items: center;
   }
   .services-container .services-first-container h2{
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "chivo";
   }
   
   .services-container .services-first-container h2::after{
@@ -459,17 +481,18 @@ animation: jumpOne 7s infinite linear;
     display: inline-block;
   }
   .services-container .services-first-container h6{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 50px;
     color: var(--text-color);
+    font-family: "chivo";
     text-align: center;
+    }
+    .services-container .services-first-container h4{
+      font-family: "chivo";
     }
   
   .services-container .services-two-container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap ;
-   
+  
   }
   
   .services-container .services-two-container .box{
@@ -477,7 +500,8 @@ animation: jumpOne 7s infinite linear;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 300px;
+    /* width: 350px; */
+    height: 400px;
     margin: 20px 10px;
     border-radius: 10px;
    background-color: #F6F9FF;
@@ -489,6 +513,10 @@ animation: jumpOne 7s infinite linear;
     width: 40%;
     height: 40%;
     margin: 30px 0px;
+  }
+  .services-container .services-two-container .box a .icon{
+
+    padding-top: 2px;
   }
   .services-container .services-two-container .box a{
     padding: 5px 15px;
@@ -502,13 +530,16 @@ animation: jumpOne 7s infinite linear;
   margin: 10px 0px;
   background-color: white;
   font-weight: 600;
+  font-family: "chivo";
   }
+
   .services-container .services-two-container .box h5{
     font-size: 24px;
-    line-height: 1.66em;
+    line-height: 1.3em;
     letter-spacing: 0.5px;
     text-align: center;
     margin: 10px 0px ;
+    font-family: "chivo";
   }
   
   .services-container p{
@@ -517,11 +548,13 @@ animation: jumpOne 7s infinite linear;
     margin-top:30px ;
    margin-bottom: 0px;
    
+   
   }
   .services-container .para{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "chivo";
   }
   .services-container .para::after{
     content: "";
@@ -583,17 +616,20 @@ animation: jumpOne 7s infinite linear;
       letter-spacing: 2px;
       color: #fff;
       margin-bottom: 20px;
+      font-family: "chivo";
      }
      .over-client-content .main-title{
       font-size: 58px;
       line-height: 1.34em;
-      letter-spacing: -1px;
+      letter-spacing: -4px;
+      font-family: "chivo";
   }
      .over-client-content .para-one{
       margin: 20px 0px;
       font-size: 25px;
       line-height: 1.7em;
       margin-bottom: 10px;
+      font-family: "chivo";
      
      }
      .over-client-content ul{
@@ -602,6 +638,8 @@ animation: jumpOne 7s infinite linear;
       display: flex;
       flex-direction: column;
       padding: 20px 0%;
+      
+     font-family: "chivo";
      }
      .over-client-content .li-items{
       display: flex;
@@ -620,6 +658,7 @@ animation: jumpOne 7s infinite linear;
       margin-top:30px ;
      margin-bottom: 0px;
      
+     font-family: "chivo";
     }
    
   
@@ -653,11 +692,15 @@ animation: jumpOne 7s infinite linear;
     font-size: 60px;
     line-height: initial;
     color: var(--prime-one);
+    
+    font-family: "chivo";
   }
   #counter .counter-details p {
      text-align: center;
     font-size: 18px;
     line-height: 27px;
+    
+    font-family: "chivo";
   }
   #counter .counter-details{
     display: flex;
@@ -673,8 +716,7 @@ animation: jumpOne 7s infinite linear;
 
 #working-process-container{
  
-    margin-top: 100px;
-  
+    margin-top: 100px;  
   }
 .working-part{
   background-image: url(/images/background-img.png);
@@ -717,11 +759,13 @@ justify-content: center;
   font-size: 30px;
   width: 45px;
   height: 45px;
+  font-family: "chivo";
 
  }
  .working-part .contianer-boxes-item .box .content{
-  padding: 20px 20px 5px 92px;
+  padding: 20px 10px 5px 92px;
   line-height: 1.3rem;
+  font-family: "chivo";
  }
  
  
@@ -747,11 +791,11 @@ justify-content: center;
   color: rgba(0, 40, 78, 0.5);
   margin-bottom: 14px;
   letter-spacing: 2px;
-  font-family: sans-serif;
+  font-family: "chivo";
 text-transform: uppercase;
  }
  .be-a-pro-with-us .para{
-  /* font-family: sans-serif; */
+  font-family: "chivo";
   font-size: 58px;
   line-height: 1.34em;
   letter-spacing: -1px;
@@ -769,6 +813,7 @@ text-transform: uppercase;
   font-size: 20px;
   margin-top: 30px;
   border: none;
+  font-family: "chivo";
 }
 .be-a-pro-with-us button:hover{
   background-color: var(--prime-two);
@@ -786,6 +831,7 @@ top: 10%;
 z-index: -1;
 left: 10%;
 animation: jumpOne 7s infinite linear;
+
 }
 .be-a-pro-with-us .shape-three{
   position: absolute;
@@ -855,6 +901,7 @@ left: 5%;
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  font-family: "chivo";
   align-items: center;
 }
 @media (width<1260px) {
@@ -886,8 +933,8 @@ padding: 0px  100px ;
   margin-left: 20px;
 }
 .address .con .con-title{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 400;
 }
 @media (width<550px){
   .address .adr-fir-con{
@@ -1015,6 +1062,7 @@ z-index: -1;
   font-size: 6em;
   font-weight: 700;
   text-shadow: 1px 1px 10px rgb(122, 117, 117);
+  font-family: "chivo";
 }
 @media (width<570px) {
   .about-page h2{
@@ -1066,18 +1114,21 @@ z-index: -1;
   font-size: 25px;
 
   margin-top :50px ;
+  font-family: "chivo";
 }
 .content-story h2{
   font-size: 50px;
   margin-bottom: 50px;
+  font-family: "chivo";
 }
 .content-story h2 i{
-  color: rgb(105, 18, 186);  
+  color:blueviolet;  
 }
 .content-story p{
   font-size: 20px;
   line-height: 1.7rem;
   color:var(--text-color);
+  font-family: "chivo";
   
   
 }
@@ -1086,7 +1137,7 @@ z-index: -1;
   width: 150px;
   height: 60px;
   text-align: center;
-  background-color: rgb(136, 37, 229) ;
+  background-color:blueviolet;
   color: white;
   font-size: 17px;
   font-weight: 700;
@@ -1103,6 +1154,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
+
+font-family: "chivo";
 }
 .second-content .s-content{
   margin: 10px 0px 0px 0px;
@@ -1141,6 +1194,7 @@ margin-top: 70px;
  
   .choose-us-container .choose-us-content{
     margin-top: 50px;
+    font-family: "chivo";
   }
 .choose-us-container h6{
 color: blueviolet;
@@ -1228,6 +1282,7 @@ justify-content: space-evenly;
 
 .testimonials-container{
   margin-bottom: 70px;
+ 
 }
 
 .testimonials-container .testimonials{
@@ -1247,13 +1302,14 @@ font-weight: 200;
 padding: 3px 0px;
 border-radius: 20px;
 background-color: #F6F0FF;
+font-family: "chivo";
 }
 .testimonials-container .testimonials h2{
   font-size: 60px;
   line-height: 1.31em;
   letter-spacing: -1px;
-  /* margin: 5px 0px 30px 0px; */
   padding: 0px 7px;
+  font-family: "chivo";
 }
 .testimonials-container .testimonials h2 span{
   color: blueviolet;
@@ -1278,8 +1334,7 @@ background-color: #F6F0FF;
   margin-top: 50px;
 }
 .contact-us-container h6{
-color: blueviolet;
-/* width: 150px; */
+color: blueviolet;  
 display: inline-block;
 text-align: center;
 font-size: 17px;
@@ -1287,13 +1342,14 @@ font-weight: 600;
 padding: 3px 50px;
 border-radius: 20px;
 background-color: #F6F0FF;
+font-family: "chivo";
 }
 .contact-us-container h2{
 font-size: 60px;
 line-height: 1.31em;
 letter-spacing: -1px;
 margin: 20px 0px;
-/* padding: 0px 7px; */
+font-family: "chivo";
 }
 .contact-us-container h2 span{
 color: blueviolet;
@@ -1304,6 +1360,7 @@ font-size: 20px;
 border-radius: 8px;
 color:var(--text-color);
 margin-top: 40px;
+font-family: "chivo";
 }
 
 
@@ -1705,10 +1762,7 @@ color: var(--text-color);
   .content-container{
     padding: 50px 0px;
   }
-  .content-ss img{
-    height: 50px;
-    width: 100px;
-  }
+ 
   .content-ss .gtm{
     padding: 5px 15px;
     border-radius: 35px;
@@ -1729,7 +1783,17 @@ margin: 40px 0px;
   }
 
   .ss-contents{
-    margin: 40px 30px;
+    margin: 10px 30px;
+  }
+  @media (width<430px) {
+    .ss-contents{
+      margin: 10px 0px 0px 5px !important;
+    }
+  }
+  @media (width<380px) {
+    .ss-contents img{
+    height: 30px;
+    }
   }
   .content-ss h3{
     font-weight: 400;
@@ -1985,6 +2049,7 @@ transform: translate(-50%, 20%);
       left: 50%;
       transform: translate(-50%,-0%);
       width: 240px !important;
+    
     }
   }
   .home-tab .card .content{
@@ -1996,6 +2061,7 @@ transform: translate(-50%, 20%);
     transform: translate(-50%,-0%);
     width: 300px;
     padding: 25px 0px;
+    font-family: "chivo";
   }
   .home-tab .card .content h6{
     color: var(--text-color);
@@ -2053,11 +2119,14 @@ transform: translate(-50%, 20%);
   .port-detail-con .detail-con  p{
 color: var(--text-color);
 margin-top: 5px;
+font-family: "chivo";
   }
   .port-detail-con .detail-con h2{
     font-size: 50px;
   font-weight: 600;
   margin-top: 10px;
+  
+  font-family: "chivo";
   }
   @media (width<500px) {
     .port-detail-con .detail-con h2{
@@ -2075,14 +2144,18 @@ margin-top: 5px;
     margin-top: 40px;
     line-height: 2rem;
     font-size: 20px;
+    
   }
   .port-detail-con h6{
     color: #B2BECA;
+    font-family: "chivo";
    
   }
   .port-detail-con h3{
     font-size: 19px;
     color: rgb(73, 71, 71);
+    
+  font-family: "chivo";
   }
 .port-detail-con .icons{
    margin-top: 40px;
@@ -2150,6 +2223,7 @@ font-size: 20px;
    .sec-detail h2{
   color: #14202c;
     margin: 40px 0px;
+    font-family: "chivo";
   }
    .sec-detail .box .content{
     padding: 20px 20px 10px 80px;
@@ -2162,7 +2236,7 @@ font-size: 20px;
 
  .sec-detail .box .content p{
 font-size: 20px;
-color: #325476;
+font-family: "chivo";
   }
   .sec-detail .box .content .latter{
     position: absolute;
@@ -2594,7 +2668,9 @@ color: black;
 }
 .query-container h2{
   color: white;
-  font-size: 40px;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "chivo";
 }
 .query-container button{
   color: white;
@@ -2653,8 +2729,9 @@ color: black;
 /* pricing========================= */
 .title-style-one .main-title{
   font-size: 50px !important;
-  color: rgb(0, 0, 0);
+  color:#030B4C;
   margin-bottom: 30px;
+  font-family: "chivo";
 
 }
 
@@ -2684,6 +2761,7 @@ color: black;
   font-size: 25px;
   font-weight: 600;
   /* margin:15px 0px ; */
+  color: var(--heading);
 }
 .pricing-table .pack-details{
 
@@ -2692,6 +2770,8 @@ color: black;
 }
 .pricing-table .pack-details span{
   color: grey;
+  
+  font-family: "chivo";
 }
 .top-banner{
   background-color: #F6FBFF;
@@ -2705,15 +2785,15 @@ color: black;
   padding-right: 20px;
   font-size: 35px;
 }
-.pricing-table-area-one .top-banner span {
-  font-size: 19px;
-}
+
 .pricing-table-area-one .top-banner span {
 
-  font-size: 20px;
+  font-size: 24px;
   padding-bottom:7px;
   display: block;
+  font-weight: 500;
   color: #00284E;
+  font-family: "chivo ";
   line-height: initial;
   margin-bottom: -10px;
 }
@@ -2742,6 +2822,7 @@ color: black;
   font-size: 17px;
   padding: 20px 35px;
   border-radius: 30px;
+  font-family: "chivo";
 }
 
 
@@ -2754,6 +2835,7 @@ color: black;
 .msg-note .msg{
   color: rgb(110, 109, 109);
   font-weight: 700;
+  font-family: "chivo";
 }
 @media (width<768px) {
   .pricing-table-area-one .fir-con{
@@ -2782,6 +2864,7 @@ color: black;
   font-weight: 600;
   letter-spacing: 2px;
   border-radius: 5px;
+  
 }
 .pricing-con .content p{
   font-size: 58px;

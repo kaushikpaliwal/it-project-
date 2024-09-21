@@ -5,7 +5,7 @@ function Signin() {
   return ( 
     <>
     <Navbar/>
-  <div className="container">
+  <div className="container gx-0">
     <div className="row">
       <div className="col-lg-6 header-part text-center m-0">
         <h2>Want to take your business on
@@ -14,11 +14,11 @@ function Signin() {
       </div>
       <div className="col-lg-6 m-0 content-container gx-5">
         <div className="content-ss">
+          <div className="ss-contents">
           <div className=" d-flex justify-content-between ">
-          <NavLink to={'/'}>  <img src="images/logo1.png" alt=""  /></NavLink> 
+          <NavLink to={'/'}> <img src="images/Cloudtrix-Hub-Logo.svg" alt="" /></NavLink> 
             <button className='gtm'>Go To Home</button>
           </div>
-          <div className="ss-contents">
 
           
           <h2>Hi buddy, welcome

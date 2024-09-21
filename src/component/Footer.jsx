@@ -33,7 +33,7 @@ function Footer() {
         <h3>Links</h3>
         <ul><li>
           <NavLink className='link' to={'/'}>Home</NavLink></li>
-         <li> <NavLink className='link' to={'/pricing'}>Pricing</NavLink></li>
+         <li> <NavLink className='link' to={''}>Pricing</NavLink></li>
           <li><NavLink className='link' to={''}>About Us</NavLink></li>
          <li><NavLink className='link' to={''}>Service</NavLink></li>
         </ul>
