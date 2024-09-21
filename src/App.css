@@ -454,10 +454,7 @@ animation: jumpOne 7s infinite linear;
    /* .................................services.............................. */
 
 
-   .services-container{
-    /* display: flex;
-    flex-direction: column;  */
-  }
+  
   .services-container .services-first-container{
     display: flex;
     flex-direction: column;
@@ -491,9 +488,7 @@ animation: jumpOne 7s infinite linear;
       font-family: "chivo";
     }
   
-  .services-container .services-two-container{
-  
-  }
+
   
   .services-container .services-two-container .box{
     display: flex;
